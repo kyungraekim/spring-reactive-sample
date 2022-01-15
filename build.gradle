@@ -29,6 +29,10 @@ dependencies {
     testImplementation 'io.projectreactor:reactor-test'
 }
 
+jar {
+    enabled = true
+}
+
 test {
     useJUnitPlatform()
 }
